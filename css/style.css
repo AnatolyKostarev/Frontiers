@@ -3,3 +3,10 @@
 body {
   background: #ccc;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1060px;
+  box-sizing: content-box;
+}
