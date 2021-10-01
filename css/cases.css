@@ -1,4 +1,5 @@
 #cases {
+  padding: 146px 0 0 0;
   position: relative;
   background: url("../image/cases/img-cases-bg.png") center no-repeat #ccc;
   background-size: cover;
@@ -14,10 +15,6 @@
   position: absolute;
   background: rgba(4, 5, 7, 0.7);
   z-index: -1;
-}
-
-.cases {
-  padding: 146px 0 44px;
 }
 
 .cases__title {
@@ -55,7 +52,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1240px;
   padding: 40px 100px 40px 103px;
   list-style-type: none;
 }
@@ -90,4 +87,68 @@
   font-size: 10px;
   text-decoration: none;
   color: rgba(228, 197, 146, 1);
+}
+
+@media (max-width: 1200px) {
+  #cases {
+    padding: 130px 0 0 0;
+  }
+
+  .cases__subtitle {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .cases__list-item {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #cases {
+    padding: 120px 0 0 0;
+  }
+
+  .cases__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .cases__list-item {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #cases {
+    padding: 120px 0 0 0;
+  }
+
+  .cases__title {
+    text-align: center;
+  }
+
+  .cases__subtitle {
+    margin: 0 auto 43px;
+    width: 520px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .cases__list {
+    flex-direction: column;
+  }
+  .cases__list-item {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .cases__navigation {
+    background: transparent;
+    backdrop-filter: none;
+    mix-blend-mode: unset;
+  }
 }

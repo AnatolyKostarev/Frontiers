@@ -1,7 +1,10 @@
-@import "./modern-normalize.css";
+/* @import "./modern-normalize.css"; */
 @import "./cases.css";
+@import "./hotels.css";
 
 body {
+  margin: 0;
+  padding: 0;
   background: #ccc;
   color: rgba(228, 197, 146, 1);
 }
