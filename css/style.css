@@ -1,5 +1,27 @@
 @import "./modern-normalize.css";
+@import "./cases.css";
 
 body {
   background: #ccc;
+  color: rgba(228, 197, 146, 1);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 100px;
+  max-width: 1240px;
+  box-sizing: content-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+li,
+p,
+a {
+  margin: 0;
+  padding: 0;
 }
