@@ -7,14 +7,18 @@
 }
 
 #cases::after {
+  position: absolute;
   content: "";
   display: block;
   top: 0;
   bottom: 0;
   width: 100%;
-  position: absolute;
   background: rgba(4, 5, 7, 0.7);
   z-index: -1;
+}
+
+#cases .container {
+  padding: 0 100px;
 }
 
 .cases__title {
