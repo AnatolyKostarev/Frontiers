@@ -1,0 +1,133 @@
+#main__cases {
+  padding: 80px 0 120px;
+  background: rgba(29, 29, 31, 1);
+}
+
+.main__cases-title {
+  margin-bottom: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: rgba(228, 197, 146, 1);
+}
+
+.main__cases-wraper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+}
+
+.main__cases-card {
+  width: 33%;
+}
+
+.main__cases-header {
+  margin-bottom: 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(249, 249, 249, 1);
+}
+
+.main__cases-item_1,
+.main__cases-item_2,
+.main__cases-item_3 {
+  margin-bottom: 20px;
+  position: relative;
+  padding: 24px;
+  background-size: cover;
+  width: 100%;
+  height: 264px;
+  outline: 3px solid rgba(228, 197, 146, 1);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.main__cases-item_1 {
+  background: url("/image/main-cases/image-1-main_cases.png") center no-repeat;
+}
+
+.main__cases-item_2 {
+  background: url("/image/main-cases/image-2-main_cases.png") center no-repeat;
+}
+
+.main__cases-item_3 {
+  background: url("/image/main-cases/image-3-main_cases.png") center no-repeat;
+}
+
+.main__cases-item_1 img,
+.main__cases-item_2 img,
+.main__cases-item_3 img {
+  position: absolute;
+  bottom: 76px;
+  z-index: 1;
+}
+
+.main__cases-message {
+  position: absolute;
+  bottom: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+  z-index: 1;
+}
+
+.main__cases-item_1::after,
+.main__cases-item_2::after,
+.main__cases-item_3::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(360deg, #040507 18.94%, rgba(4, 5, 7, 0) 100%);
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+  border-radius: 8px;
+}
+
+.main__cases-subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__cases-text p {
+  margin-bottom: 12px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(249, 249, 249, 1);
+}
+
+.main__cases-text a {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(228, 197, 146, 1);
+}
+
+.main__cases-text img {
+  margin-left: 4px;
+}
+
+.main__cases-figures p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: right;
+  color: rgba(249, 249, 249, 1);
+}
