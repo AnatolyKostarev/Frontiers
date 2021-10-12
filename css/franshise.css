@@ -1,0 +1,327 @@
+#franshise {
+  padding: 82px 100px 120px;
+  background: rgba(249, 249, 249, 1);
+}
+
+.franshise__text {
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(202, 202, 203, 1);
+}
+
+.franshise__title {
+  position: relative;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(208, 176, 124, 1);
+}
+
+.franshise__title::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: rgba(208, 176, 124, 1);
+  left: 0;
+  bottom: -8px;
+}
+
+.franshise__subtitle {
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(29, 29, 31, 1);
+}
+
+.franshise__description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 68px;
+}
+
+.franshise__task {
+  position: relative;
+  flex-basis: 50%;
+  margin-right: 20px;
+}
+
+.franshise__addendum {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(202, 202, 203, 1);
+}
+
+.franshise__task-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(29, 29, 31, 1);
+}
+
+.franshise__task-text {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(103, 103, 104, 1);
+}
+
+.franshise__rates {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.franshise__rates-items {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: flex-end; */
+  column-gap: 20px;
+}
+
+.franshise__rates-title {
+  flex-basis: 50%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  vertical-align: top;
+  color: rgba(29, 29, 31, 1);
+}
+
+.franshise__rates-subtitle {
+  flex-basis: 50%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  vertical-align: top;
+  color: rgba(103, 103, 104, 1);
+}
+
+.franshise__task-images {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+}
+
+.franshise__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.franshise__task-one,
+.franshise__task-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.franshise__task-one {
+  margin-bottom: 20px;
+  column-gap: 20px;
+}
+
+.franshise__task-two {
+  column-gap: 20px;
+}
+
+@media (min-width: 1439px) {
+  #cases .container {
+    padding: 0 100px;
+  }
+
+  .cases__list-item {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  #franshise {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .franshise__task-two {
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .franshise__description {
+    flex-direction: column;
+  }
+  .franshise__task {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .franshise__task-text {
+    text-align: justify;
+  }
+
+  .franshise__rates-items {
+    flex-direction: column;
+  }
+
+  .franshise__task-one,
+  .franshise__task-two {
+    justify-content: flex-start;
+  }
+
+  .franshise__task-images {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .franshise__description {
+    flex-direction: column;
+  }
+
+  .franshise__task {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .franshise__task-text {
+    text-align: justify;
+  }
+
+  .franshise__rates-items {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  #franshise {
+    padding: 32px 0 48px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+
+  .franshise__description {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .franshise__text {
+    display: block;
+    margin-bottom: 2px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .franshise__title {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .franshise__title::after {
+    display: none;
+  }
+
+  .franshise__description {
+    margin-top: 28px;
+  }
+
+  .franshise__task {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .franshise__task-title {
+    margin-bottom: 4px;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .franshise__task-text {
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .franshise__rates {
+    row-gap: 12px;
+  }
+
+  .franshise__rates-items {
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+
+  .franshise__rates-title {
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(29, 29, 31, 1);
+  }
+
+  .franshise__rates-subtitle {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(103, 103, 104, 1);
+  }
+
+  .franshise__task-one {
+    margin-bottom: 2px;
+    column-gap: 4px;
+  }
+
+  .franshise__task-two {
+    column-gap: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  .franshise__addendum {
+    bottom: -429px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .franshise__addendum {
+    bottom: -321px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .franshise__addendum {
+    bottom: -284px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .franshise__addendum {
+    bottom: -243px;
+    font-size: 10px;
+  }
+}
