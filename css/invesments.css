@@ -85,7 +85,7 @@
 }
 
 .investments__rates-subtitle {
-  flex-basis: 50%;
+  flex-basis: 62%;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -101,6 +101,7 @@
 }
 
 .investments__img {
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -118,7 +119,6 @@
 }
 
 .investments__task-two {
-  /* height: auto; */
   column-gap: 20px;
 }
 
@@ -152,7 +152,32 @@
   z-index: 99;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1439px) {
+  #cases .container {
+    padding: 0 100px;
+  }
+
+  .cases__list-item {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  #investments {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .investments__task-two {
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #investments {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .investments__description {
     flex-direction: column;
   }
@@ -172,6 +197,10 @@
   .investments__task-one,
   .investments__task-two {
     justify-content: flex-start;
+  }
+
+  .investments__task-images {
+    margin: 0 auto;
   }
 }
 
@@ -198,7 +227,7 @@
   #investments {
     padding: 32px 0 48px;
   }
-  .container {
+  #investments .container {
     padding: 0 16px;
   }
 
