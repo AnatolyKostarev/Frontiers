@@ -37,3 +37,25 @@ a {
   margin: 0;
   padding: 0;
 }
+
+.button {
+  padding: 12px 28px;
+  background: transparent;
+  border: 1.7px solid #e4c592;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(228, 197, 146, 1);
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: rgba(208, 176, 124, 1);
+  color: rgba(249, 249, 249, 1);
+  outline: transparent;
+  transition: 0.3s;
+}
