@@ -1,0 +1,55 @@
+#partners {
+  padding: 80px 0 120px;
+  background: rgba(29, 29, 31, 1);
+}
+
+.partners__title {
+  margin-bottom: 62px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: rgba(228, 197, 146, 1);
+}
+
+.partners__logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 105px;
+}
+
+.partners__img {
+  position: relative;
+  filter: grayscale(100%);
+  filter: gray;
+  transition-timing-function: linear;
+  transition: all 0.5s;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.partners__img:hover {
+  filter: grayscale(0);
+  filter: none;
+  transition-timing-function: linear;
+  transition: all 0.5s;
+  opacity: 1;
+}
+
+.partners__img img {
+  overflow: hidden;
+  filter: invert(100%);
+  transition-timing-function: linear;
+  transition: all 0.5s;
+}
+
+.partners__img:nth-child(5) img {
+  border-radius: 50%;
+}
+
+.partners__img img:hover {
+  filter: invert(0);
+  transition-timing-function: linear;
+  transition: all 0.5s;
+}
