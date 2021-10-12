@@ -1,7 +1,13 @@
-/* @import "./modern-normalize.css"; */
+@import "./main.css";
+@import "./investor.css";
+@import "./main-cases.css";
+@import "./main-advantages.css";
+@import "./partners.css";
+@import "./news.css";
 @import "./cases.css";
 @import "./hotels.css";
 @import "./invesments.css";
+@import "./franshise.css";
 
 body {
   margin: 0;
