@@ -1,0 +1,76 @@
+#investor {
+  padding: 100px 0 120px;
+  background: rgba(249, 249, 249, 1);
+}
+
+.investor__title {
+  margin-bottom: 71px;
+  text-align: center;
+}
+
+.investor__title-investor,
+.investor__title-entrepreneur {
+  position: relative;
+  padding-bottom: 8px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(202, 202, 203, 1);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.investor__title-entrepreneur {
+  margin-left: 40px;
+}
+
+.investor__title-investor:hover,
+.investor__title-entrepreneur:hover {
+  transition: 0.2s;
+  color: rgba(208, 176, 124, 1);
+  border-bottom: 2px solid rgba(208, 176, 124, 1);
+}
+
+.investor__services-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 92px;
+  list-style-type: none;
+}
+
+.investor__services-item {
+  flex-basis: 33%;
+}
+
+.investor__services-item:nth-child(2) {
+  margin: 0 46px;
+}
+
+.investor__services-item img {
+  display: block;
+  margin: 0 auto 21px;
+}
+
+.investor__services-header {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(29, 29, 31, 1);
+}
+
+.investor__services-text {
+  visibility: visible;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(103, 103, 104, 1);
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+}
