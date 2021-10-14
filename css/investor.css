@@ -1,0 +1,206 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+#investor {
+  padding: 100px 0 120px;
+  background: rgba(249, 249, 249, 1);
+}
+
+.investor__title {
+  margin-bottom: 71px;
+  text-align: center;
+}
+
+.investor__title-investor,
+.investor__title-entrepreneur {
+  position: relative;
+  padding-bottom: 8px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(202, 202, 203, 1);
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.investor__title-entrepreneur {
+  margin-left: 40px;
+}
+
+.investor__title-investor:hover,
+.investor__title-entrepreneur:hover {
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  color: rgba(208, 176, 124, 1);
+  border-bottom: 2px solid rgba(208, 176, 124, 1);
+}
+
+.investor__services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 92px;
+  list-style-type: none;
+}
+
+.investor__services-item {
+  -ms-flex-preferred-size: 33%;
+  flex-basis: 33%;
+}
+
+.investor__services-item:nth-child(2) {
+  margin: 0 46px;
+}
+
+.investor__services-item img {
+  display: block;
+  margin: 0 auto 21px;
+}
+
+.investor__services-header {
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(29, 29, 31, 1);
+}
+
+.investor__services-text {
+  visibility: visible;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(103, 103, 104, 1);
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+  .investor__services-header,
+  .investor__services-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  #investor {
+    padding: 60px 0 80px;
+  }
+
+  #investor .container {
+    padding: 0;
+  }
+
+  .investor__services {
+    padding: 0 50px;
+  }
+
+  .investor__services-header,
+  .investor__services-text {
+    text-align: center;
+  }
+
+  .investor__services-list {
+    margin-bottom: 82px;
+  }
+}
+
+@media (max-width: 768px) {
+  #investor {
+    padding: 50px 0 70px;
+  }
+
+  .investor__services-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-bottom: 50px;
+  }
+
+  .investor__services-header,
+  .investor__services-text {
+    text-align: center;
+  }
+
+  .investor__title-investor {
+    color: rgba(208, 176, 124, 1);
+  }
+
+  .investor__title-entrepreneur {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #investor {
+    padding: 32px 0 48px;
+  }
+
+  #investor .container {
+    padding: 0;
+  }
+
+  .investor__title {
+    margin-bottom: 28px;
+  }
+
+  .investor__title-investor {
+    padding: 0;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(208, 176, 124, 1);
+  }
+
+  .investor__title-entrepreneur {
+    display: none;
+  }
+
+  .investor__services {
+    padding: 0 16px;
+  }
+
+  .investor__services-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 21px;
+    margin-bottom: 40px;
+  }
+
+  .investor__services-header {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .investor__services-text {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .investor__services-item:nth-child(2) {
+    margin: 0;
+  }
+}

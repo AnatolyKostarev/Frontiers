@@ -7,12 +7,12 @@
 }
 
 #cases::after {
+  position: absolute;
   content: "";
   display: block;
   top: 0;
   bottom: 0;
   width: 100%;
-  position: absolute;
   background: rgba(4, 5, 7, 0.7);
   z-index: -1;
 }
@@ -29,7 +29,6 @@
 .cases__subtitle {
   margin-bottom: 285px;
   width: 554px;
-  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -58,7 +57,6 @@
 }
 
 .cases__list-item {
-  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 32px;
@@ -74,7 +72,6 @@
 .cases__list-link {
   display: block;
   margin-top: 12px;
-  font-family: "Open Sans", sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 14px;
@@ -121,7 +118,7 @@
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   #cases {
     padding: 92px 0 0 0;
   }
@@ -137,7 +134,6 @@
   .cases__subtitle {
     margin: 0 auto 43px;
     width: 100%;
-    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -150,7 +146,7 @@
   .cases__list-item {
     margin-top: 14px;
     margin-bottom: 23px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 24px;
     text-align: center;
@@ -172,7 +168,7 @@
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   #cases {
     padding: 92px 0 0 0;
     background: url("../image/cases/image-cases-mobile-bg.png") center no-repeat
@@ -180,8 +176,8 @@
     background-size: cover;
   }
 
-  .container {
-    padding: 0 16px !important;
+  #cases .container {
+    padding: 0 16px;
   }
 
   .cases__title {
@@ -195,7 +191,6 @@
   .cases__subtitle {
     margin: 0 auto 43px;
     width: 100%;
-    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -204,7 +199,7 @@
 
   .cases__list {
     flex-direction: column;
-    padding: 0 16px 46px;
+    padding: 0 16px 25px;
   }
 
   .cases__list-item {

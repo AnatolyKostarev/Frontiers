@@ -1,9 +1,9 @@
-#hotels {
-  padding: 82px 100px 117px;
+#franshise {
+  padding: 82px 100px 120px;
   background: rgba(249, 249, 249, 1);
 }
 
-.hotels__text {
+.franshise__text {
   margin-bottom: 7px;
   font-size: 14px;
   font-weight: 400;
@@ -12,7 +12,7 @@
   color: rgba(202, 202, 203, 1);
 }
 
-.hotels__title {
+.franshise__title {
   position: relative;
   font-family: "Cormorant Garamond", serif;
   font-size: 40px;
@@ -22,7 +22,7 @@
   color: rgba(208, 176, 124, 1);
 }
 
-.hotels__title::after {
+.franshise__title::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -32,19 +32,40 @@
   bottom: -8px;
 }
 
-.hotels__description {
+.franshise__subtitle {
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(29, 29, 31, 1);
+}
+
+.franshise__description {
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
   margin-bottom: 68px;
 }
 
-.hotels__task {
+.franshise__task {
+  position: relative;
   flex-basis: 50%;
   margin-right: 20px;
 }
 
-.hotels__task-title {
+.franshise__addendum {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(202, 202, 203, 1);
+}
+
+.franshise__task-title {
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 600;
@@ -53,7 +74,7 @@
   color: rgba(29, 29, 31, 1);
 }
 
-.hotels__task-text {
+.franshise__task-text {
   margin-bottom: 16px;
   font-size: 20px;
   font-weight: 400;
@@ -62,19 +83,20 @@
   color: rgba(103, 103, 104, 1);
 }
 
-.hotels__rates {
+.franshise__rates {
   display: flex;
   flex-direction: column;
-  row-gap: 14px;
+  row-gap: 16px;
 }
 
-.hotels__rates-items {
+.franshise__rates-items {
   display: flex;
   justify-content: flex-start;
+  /* align-items: flex-end; */
   column-gap: 20px;
 }
 
-.hotels__rates-title {
+.franshise__rates-title {
   flex-basis: 50%;
   font-size: 20px;
   font-weight: 600;
@@ -84,7 +106,7 @@
   color: rgba(29, 29, 31, 1);
 }
 
-.hotels__rates-subtitle {
+.franshise__rates-subtitle {
   flex-basis: 50%;
   font-size: 20px;
   font-weight: 400;
@@ -94,59 +116,32 @@
   color: rgba(103, 103, 104, 1);
 }
 
-.hotels__task-images {
+.franshise__task-images {
   display: flex;
   flex-basis: 50%;
   flex-direction: column;
 }
 
-.hotels__img {
+.franshise__img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.hotels__task-one,
-.hotels__task-two {
+.franshise__task-one,
+.franshise__task-two {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.hotels__task-one {
+.franshise__task-one {
   margin-bottom: 20px;
-  /* height: 220px; */
   column-gap: 20px;
 }
 
-.five {
-  position: relative;
-}
-
-.five:after {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(4, 5, 7, 0.67);
-  background-size: cover;
-}
-
-.five::before {
-  position: absolute;
-  content: "+5";
-  top: calc(50% - 22px);
-  left: calc(50% - 18px);
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 43px;
-  text-align: center;
-  color: rgba(249, 249, 249, 1);
-  z-index: 99;
+.franshise__task-two {
+  column-gap: 20px;
 }
 
 @media (min-width: 1439px) {
@@ -154,134 +149,129 @@
     padding: 0 100px;
   }
 
-  #hotels {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
   .cases__list-item {
     font-size: 28px;
     line-height: 28px;
   }
 
-  .hotels__task-two {
+  #franshise {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .franshise__task-two {
     column-gap: 20px;
   }
 }
 
 @media (max-width: 1200px) {
-  .hotels__description {
+  .franshise__description {
     flex-direction: column;
   }
-
-  .hotels__task {
+  .franshise__task {
     margin-right: 0;
     margin-bottom: 20px;
   }
 
-  .hotels__task-text {
+  .franshise__task-text {
     text-align: justify;
   }
 
-  .hotels__rates-items {
+  .franshise__rates-items {
     flex-direction: column;
   }
 
-  .hotels__task-one,
-  .hotels__task-two {
+  .franshise__task-one,
+  .franshise__task-two {
     justify-content: flex-start;
-    column-gap: 20px;
   }
 
-  .hotels__task-images {
+  .franshise__task-images {
     margin: 0 auto;
   }
 }
+
 @media (max-width: 768px) {
-  .hotels__description {
+  .franshise__description {
     flex-direction: column;
   }
 
-  .hotels__task {
+  .franshise__task {
     margin-right: 0;
     margin-bottom: 20px;
   }
 
-  .hotels__task-text {
+  .franshise__task-text {
     text-align: justify;
   }
 
-  .hotels__rates-items {
+  .franshise__rates-items {
     flex-direction: column;
-  }
-
-  .hotels__task-two {
-    column-gap: 20px;
   }
 }
 
 @media (max-width: 576px) {
-  #hotels {
+  #franshise {
     padding: 32px 0 48px;
   }
   .container {
     padding: 0 16px;
   }
 
-  .hotels__description {
+  .franshise__description {
     flex-direction: column;
     margin-bottom: 40px;
   }
 
-  .hotels__text {
+  .franshise__text {
     display: block;
     margin-bottom: 2px;
     line-height: 19px;
     text-align: center;
   }
 
-  .hotels__title {
+  .franshise__title {
     font-size: 28px;
     line-height: 32px;
     text-align: center;
   }
 
-  .hotels__title::after {
+  .franshise__title::after {
     display: none;
   }
 
-  .hotels__description {
+  .franshise__description {
     margin-top: 28px;
   }
 
-  .hotels__task {
+  .franshise__task {
     margin-right: 0;
     margin-bottom: 20px;
   }
 
-  .hotels__task-title {
+  .franshise__task-title {
     margin-bottom: 4px;
     font-size: 13px;
     line-height: 16px;
   }
 
-  .hotels__task-text {
+  .franshise__task-text {
     margin-bottom: 12px;
     font-size: 13px;
     line-height: 16px;
     text-align: left;
   }
 
-  .hotels__rates {
+  .franshise__rates {
     row-gap: 12px;
   }
 
-  .hotels__rates-items {
+  .franshise__rates-items {
     flex-direction: column;
     margin-bottom: 12px;
   }
 
-  .hotels__rates-title {
+  .franshise__rates-title {
     margin-bottom: 4px;
     font-size: 13px;
     font-weight: 600;
@@ -290,7 +280,7 @@
     color: rgba(29, 29, 31, 1);
   }
 
-  .hotels__rates-subtitle {
+  .franshise__rates-subtitle {
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
@@ -298,18 +288,40 @@
     color: rgba(103, 103, 104, 1);
   }
 
-  .five::before {
-    top: calc(50% - 9px);
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  .hotels__task-one {
+  .franshise__task-one {
     margin-bottom: 2px;
     column-gap: 4px;
   }
 
-  .hotels__task-two {
+  .franshise__task-two {
     column-gap: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  .franshise__addendum {
+    bottom: -429px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .franshise__addendum {
+    bottom: -321px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .franshise__addendum {
+    bottom: -284px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .franshise__addendum {
+    bottom: -243px;
+    font-size: 10px;
   }
 }
