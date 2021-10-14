@@ -220,6 +220,10 @@
     margin-right: 0;
   }
 
+  .consulting__items a {
+    text-align: center;
+  }
+
   .consulting__info {
     padding: 0;
     background: none;
