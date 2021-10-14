@@ -68,6 +68,10 @@
     padding: 0 50px;
   }
 
+  .advantages__subtitle {
+    margin-top: 43px;
+  }
+
   .advantages__card {
     display: -ms-grid;
     display: grid;
