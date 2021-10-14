@@ -17,6 +17,14 @@
   z-index: -1;
 }
 
+.cases__home-link {
+  text-decoration: none;
+}
+
+.cases__home-link button {
+  margin: 0 0 65px 0;
+}
+
 .cases__title {
   margin: 0 0 28px;
   font-family: "Cormorant Garamond", serif;

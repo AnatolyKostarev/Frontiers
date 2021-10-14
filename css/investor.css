@@ -1,17 +1,10 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
 #investor {
-  padding: 100px 0 120px;
+  padding: 80px 0 120px;
   background: rgba(249, 249, 249, 1);
 }
 
 .investor__title {
-  margin-bottom: 71px;
+  margin-bottom: 61px;
   text-align: center;
 }
 
@@ -86,7 +79,7 @@
   color: rgba(103, 103, 104, 1);
 }
 
-.button {
+.investor__services > .button {
   display: block;
   margin: 0 auto;
 }
