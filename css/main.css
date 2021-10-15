@@ -34,6 +34,10 @@
   color: transparent;
 }
 
+.main__logo-link {
+  text-decoration: none;
+}
+
 .main__description {
   padding-bottom: 148px;
 }
