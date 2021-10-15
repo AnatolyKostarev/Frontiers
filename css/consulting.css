@@ -1,6 +1,7 @@
 #consulting {
   position: relative;
-  background: url("/image/consulting/image-1-consulting.png") center no-repeat;
+  background: url("/image/consulting/image-1-consulting.png") center no-repeat
+    #ccc;
   background-size: cover;
   z-index: 99;
 }
@@ -14,6 +15,13 @@
   bottom: 0;
   left: 0;
   right: 0;
+  background: -o-radial-gradient(
+    50% 50%,
+    50% 50%,
+    #3b3d40 0%,
+    #1b1c21 68.79%,
+    #040507 100%
+  );
   background: radial-gradient(
     50% 50% at 50% 50%,
     #3b3d40 0%,
@@ -90,6 +98,13 @@
 
 .consulting__info {
   padding: 20px 0;
+  background: -o-radial-gradient(
+    50% 0%,
+    100% 100%,
+    rgba(59, 61, 64, 0.6) 0%,
+    rgba(27, 28, 33, 0.6) 49.35%,
+    rgba(4, 5, 7, 0.6) 100%
+  );
   background: radial-gradient(
     100% 100% at 50% 0%,
     rgba(59, 61, 64, 0.6) 0%,
@@ -97,24 +112,37 @@
     rgba(4, 5, 7, 0.6) 100%
   );
   mix-blend-mode: normal;
+  -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
 }
 
 .consulting__wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1240px;
 }
 
 .consulting__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-right: 211px;
 }
 
 .consulting__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-right: 147px;
   list-style-type: none;
@@ -147,16 +175,23 @@
 
 @media (max-width: 992px) {
   .consulting__wraper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 5px 0;
   }
   .consulting__social {
     margin-right: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .consulting__list {
     margin-right: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -204,6 +239,9 @@
   }
 
   .consulting__wraper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
@@ -212,6 +250,9 @@
   }
 
   .consulting__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-right: 0;
   }
@@ -230,6 +271,8 @@
   }
 
   .consulting__social {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-bottom: 24px;
   }
