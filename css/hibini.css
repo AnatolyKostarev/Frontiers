@@ -1,0 +1,68 @@
+#hibini {
+  position: relative;
+  padding: 80px 0 36px;
+  background: url("/image/sokroma/sokroma-bg.png") center no-repeat;
+  background-size: cover;
+  z-index: 99;
+}
+
+#hibini:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(4, 5, 7, 0.85);
+  z-index: -1;
+}
+
+.hibini__title {
+  margin-bottom: 76px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+}
+
+.hibini__card-top {
+  display: grid;
+  grid-template-columns: 309px 359px 305px;
+  column-gap: 133px;
+  margin-bottom: 64px;
+  list-style-type: none;
+}
+
+.hibini__card-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 130px;
+  padding: 0 100px;
+  list-style-type: none;
+}
+
+.hibini__item > div > img {
+  display: block;
+  margin: 0 auto 25px auto;
+}
+
+.hibini__header {
+  margin-bottom: 8px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}
+
+.hibini__text {
+  height: 84px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}

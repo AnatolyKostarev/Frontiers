@@ -1,0 +1,86 @@
+#profits {
+  position: relative;
+  padding: 80px 0 158px;
+  background: url("/image/warehouse/warehouse-bg.png") center no-repeat;
+  background-size: cover;
+  z-index: 99;
+}
+
+#profits::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(4, 5, 7, 0.85);
+  z-index: -1;
+}
+
+.profits__title {
+  margin-bottom: 62px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+}
+
+.profits__wraper {
+  display: grid;
+  grid-template-columns: 439px 467px;
+  grid-gap: 0 194px;
+  padding: 0 60px;
+}
+
+.profits__card-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 86px;
+  list-style-type: none;
+}
+
+.profits__card-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 74px;
+  list-style-type: none;
+}
+
+.profits__card-title {
+  margin-bottom: 8px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}
+
+.profits__card-subtitle {
+  margin-bottom: 4px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}
+
+.profits__card-subtitle > li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 21px;
+}
+
+.profits__card-subtitle > li::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  left: 0;
+  top: 11px;
+  background: rgba(228, 197, 146, 1);
+}

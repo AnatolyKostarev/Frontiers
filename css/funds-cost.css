@@ -1,0 +1,44 @@
+#funds__cost {
+  position: relative;
+  padding: 120px 0 196px;
+  background: url("/image/sokroma/sokroma-bg.png") center no-repeat;
+  background-size: cover;
+  z-index: 99;
+}
+
+#funds__cost:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(4, 5, 7, 0.85);
+  z-index: -1;
+}
+
+.funds__cost-middle {
+  margin: 40px 0;
+}
+
+.funds__cost-title {
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+.funds__cost-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}
+
+.funds__cost-subtitle > span {
+  color: rgba(228, 197, 146, 1);
+}

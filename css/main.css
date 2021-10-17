@@ -17,7 +17,7 @@
 
 #main .container {
   position: relative;
-  padding-top: 28px;
+  padding-top: 35px;
 }
 
 .main__bar {
@@ -39,7 +39,7 @@
 }
 
 .main__description {
-  padding-bottom: 148px;
+  padding-bottom: 144px;
 }
 
 .main__image {
@@ -86,7 +86,7 @@
 }
 
 .main__navigation {
-  padding: 31px 0;
+  padding: 30px 0 32px;
   background: -o-radial-gradient(
     50% 0%,
     100% 100%,
