@@ -173,48 +173,92 @@
       <section id="investor">
         <div class="container">
           <h2 class="investor__title">
-            <a class="investor__title-investor" href="#">Инвестору</a
-            ><a class="investor__title-entrepreneur" href="#"
+            <a class="investor__title-investor js-investor" href="#"
+              >Инвестору</a
+            ><a class="investor__title-entrepreneur js-entrepreneur" href="#"
               >Предпринимателю</a
             >
           </h2>
           <div class="investor__services">
-            <ul class="investor__services-list">
-              <li class="investor__services-item">
-                <div>
-                  <img src="./image/investor/icon-money.svg" alt="" />
-                </div>
-                <h5 class="investor__services-header">Займы бизнесу</h5>
-                <div class="investor__services-text">
-                  Помогаем подобрать инвестиционную стратегию с поручительством,
-                  ликвидным залогом и долей в бизнесе. Доходность до 40%
-                </div>
-              </li>
-              <li class="investor__services-item">
-                <div>
-                  <img src="./image/investor/icon-diagramm.svg" alt="" />
-                </div>
-                <h5 class="investor__services-header">
-                  Подбор инвестиционной стратегии
-                </h5>
-                <div class="investor__services-text">
-                  Инвестирование под Ваши задачи и бюджет с конкурентноспособной
-                  годовой доходностью
-                </div>
-              </li>
-              <li class="investor__services-item">
-                <div>
-                  <img src="./image/investor/icon-franshise.svg" alt="" />
-                </div>
-                <h5 class="investor__services-header">
-                  Подбор франшизы/готового бизнеса
-                </h5>
-                <div class="investor__services-text">
-                  Поможем подобрать объект, проверить бизнес/франшизу,
-                  договориться о специальных условиях
-                </div>
-              </li>
-            </ul>
+            <div class="investor__services-wraper">
+              <ul class="investor__services-list js-investorServiceList">
+                <li class="investor__services-item">
+                  <div>
+                    <img src="./image/investor/icon-money.svg" alt="" />
+                  </div>
+                  <h5 class="investor__services-header">Займы бизнесу</h5>
+                  <div class="investor__services-text">
+                    Помогаем подобрать инвестиционную стратегию с
+                    поручительством, ликвидным залогом и долей в бизнесе.
+                    Доходность до 40%
+                  </div>
+                </li>
+                <li class="investor__services-item">
+                  <div>
+                    <img src="./image/investor/icon-diagramm.svg" alt="" />
+                  </div>
+                  <h5 class="investor__services-header">
+                    Подбор инвестиционной стратегии
+                  </h5>
+                  <div class="investor__services-text">
+                    Инвестирование под Ваши задачи и бюджет с
+                    конкурентноспособной годовой доходностью
+                  </div>
+                </li>
+                <li class="investor__services-item">
+                  <div>
+                    <img src="./image/investor/icon-franshise.svg" alt="" />
+                  </div>
+                  <h5 class="investor__services-header">
+                    Подбор франшизы/готового бизнеса
+                  </h5>
+                  <div class="investor__services-text">
+                    Поможем подобрать объект, проверить бизнес/франшизу,
+                    договориться о специальных условиях
+                  </div>
+                </li>
+              </ul>
+              <ul class="investor__services-list js-entrepreneurServiceList">
+                <li class="investor__services-item">
+                  <div>
+                    <img src="./image/investor/icon-money.svg" alt="" />
+                  </div>
+                  <h5 class="investor__services-header">
+                    Привлечение инвестиций бизнесу
+                  </h5>
+                  <div class="investor__services-text">
+                    200+ инвесторов в нашей базе и большой опыт работы с
+                    устойчивым бизнесом, понятными задачами и частными
+                    инвестициями. Привлечено более 600 млн ₽
+                  </div>
+                </li>
+                <li class="investor__services-item">
+                  <div>
+                    <img src="./image/investor/icon-franshise.svg" alt="" />
+                  </div>
+                  <h5 class="investor__services-header">
+                    Помощь в создании франшизы
+                  </h5>
+                  <div class="investor__services-text">
+                    Успешные франшизы в сферах ресторанного и гостиничного
+                    бизнеса, производства, магазинов, салонов красоты и других.
+                    Нашей командой создано 300+ франшиз
+                  </div>
+                </li>
+                <li class="investor__services-item">
+                  <div>
+                    <img src="./image/investor/icon-diagramm.svg" alt="" />
+                  </div>
+                  <h5 class="investor__services-header">
+                    Масштабирование бизнеса
+                  </h5>
+                  <div class="investor__services-text">
+                    Масштабирование успешных бинес-моделей, улучшение количества
+                    и качества предоставляемых услуг
+                  </div>
+                </li>
+              </ul>
+            </div>
             <button class="button" type="submit">Получить консультацию</button>
           </div>
         </div>
@@ -255,7 +299,7 @@
               <div class="main__cases-subtitle">
                 <div class="main__cases-text">
                   <p>Sokroma</p>
-                  <a href="/"
+                  <a href="./sokroma.html"
                     >Подробнее<img src="image/cases/icon-arrow.svg"
                   /></a>
                 </div>
@@ -817,5 +861,6 @@
         </div>
       </footer>
     </main>
+    <script src="./js/script.js" defer></script>
   </body>
 </html>
