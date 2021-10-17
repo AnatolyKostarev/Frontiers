@@ -1,0 +1,111 @@
+#projects {
+  position: relative;
+  padding: 80px 0 136px;
+  background: url("/image/party/party_bg.png") center no-repeat;
+  background-size: cover;
+  z-index: 99;
+}
+
+#projects:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(4, 5, 7, 0.85);
+  z-index: -1;
+}
+
+.projects__title {
+  margin-bottom: 60px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+}
+
+.projects__index {
+  display: grid;
+  grid-template-columns: 178px 208px 206px 214px 207px 227px;
+  margin-bottom: 26px;
+  list-style-type: none;
+}
+
+.projects__line {
+  margin-bottom: 61px;
+}
+
+.projects__item {
+  padding-left: 8px;
+  max-height: 164px;
+}
+
+.projects__item:nth-child(1) {
+  padding-top: 58px;
+}
+
+.projects__item:nth-child(2) {
+  padding-top: 32px;
+}
+
+.projects__item:nth-child(3) {
+  padding-top: 32px;
+}
+
+.projects__item:nth-child(4) {
+  padding-top: 32px;
+}
+
+.projects__year {
+  margin-bottom: 8px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}
+
+.projects__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}
+
+.projects__wraper {
+  display: grid;
+  grid-template-columns: 263px 240px;
+  column-gap: 196px;
+  padding: 0 270px;
+}
+
+.projects__card-subtitle {
+  height: 56px;
+}
+
+.projects__img {
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+.projects__card-title {
+  margin-bottom: 8px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(249, 249, 249, 1);
+}
+
+.projects__card-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(202, 202, 203, 1);
+}

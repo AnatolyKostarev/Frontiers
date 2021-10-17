@@ -36,6 +36,12 @@
   border-bottom: 2px solid rgba(208, 176, 124, 1);
 }
 
+.investor__title-investor:focus,
+.investor__title-entrepreneur:focus {
+  color: rgba(208, 176, 124, 1);
+  border-bottom: 2px solid rgba(208, 176, 124, 1);
+}
+
 .investor__services-list {
   display: -ms-grid;
   display: grid;
@@ -61,6 +67,7 @@
 }
 
 .investor__services-text {
+  height: 80px;
   visibility: visible;
   font-size: 16px;
   font-weight: 400;
