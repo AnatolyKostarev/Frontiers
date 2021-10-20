@@ -29,6 +29,7 @@
 }
 
 .projects__index {
+  /* position: relative; */
   display: grid;
   grid-template-columns: 178px 208px 206px 214px 207px 227px;
   margin-bottom: 26px;
