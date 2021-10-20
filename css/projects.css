@@ -41,7 +41,8 @@
 }
 
 .projects__item {
-  padding-left: 8px;
+  position: relative;
+  padding-left: 12px;
   max-height: 164px;
 }
 
