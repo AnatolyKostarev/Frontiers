@@ -50,12 +50,24 @@
 }
 
 .profits__card-title {
+  position: relative;
   margin-bottom: 8px;
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
   text-align: left;
   color: rgba(249, 249, 249, 1);
+}
+
+.profits__card-title::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: -12px;
+  left: 0;
+  width: 85px;
+  height: 2px;
+  background: rgba(228, 197, 146, 1);
 }
 
 .profits__card-subtitle {
