@@ -1,0 +1,150 @@
+#study {
+  padding: 35px 0 120px;
+  background: rgba(249, 249, 249, 1);
+}
+
+#study .container {
+  position: relative;
+}
+
+.study__bar {
+  position: absolute;
+  right: 100px;
+  top: 51px;
+}
+
+.study__logo-text {
+  margin-bottom: 77px;
+  background: url("/image/study/logo-study.svg") center no-repeat;
+  background-size: cover;
+  max-width: 188px;
+  max-height: 34px;
+  color: transparent;
+}
+
+.study__logo-link {
+  text-decoration: none;
+}
+
+.study__title {
+  margin-bottom: 60px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 86px;
+  font-weight: 600;
+  line-height: 69px;
+  text-align: left;
+}
+
+.study__subtitle {
+  margin-bottom: 60px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+.study__text {
+  margin-bottom: 40px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.study__free,
+.study__fee {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  margin-bottom: 60px;
+}
+
+.study__fee {
+  margin-bottom: 40px;
+}
+
+.study__img {
+  position: relative;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.study__img-img {
+  display: block;
+}
+
+.study__img::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(4, 5, 7, 0.6);
+}
+
+.study__icon {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: calc(22%);
+  z-index: 10;
+}
+
+.study__card-title {
+  margin-bottom: 4px;
+  font-size: 19.5px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  color: rgba(29, 29, 31, 1);
+}
+
+.study__card-text {
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(103, 103, 104, 1);
+}
+
+.study__buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  margin-bottom: 80px;
+}
+
+.study__buttons > div {
+  margin: 0 auto;
+}
+
+.study__free-investor,
+.study__fee-investor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  margin-bottom: 60px;
+}
+
+.study__fee-investor {
+  margin-bottom: 20px;
+}
+
+.study__buttons-investor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.study__buttons-investor > div {
+  margin: 0 auto;
+}

@@ -30,7 +30,7 @@
 
 .choice__us-wraper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 294px 391px 328px;
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 62px 105px;
 }
