@@ -176,3 +176,143 @@
   text-align: left;
   color: rgba(202, 202, 203, 1);
 }
+
+.projects__dots {
+  display: none;
+}
+
+@media (max-width: 1439px) {
+  #projects {
+    padding: 40px 0 52px;
+  }
+
+  /* #projects .container {
+    padding: 0 16px;
+  } */
+
+  .projects__line {
+    margin-bottom: 30px;
+  }
+
+  .projects__wraper {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 70px;
+    padding: 0;
+  }
+
+  .projects__rates {
+    overflow-x: scroll;
+    margin-right: -16px;
+  }
+
+  .projects__rates::-webkit-scrollbar {
+    height: 4px;
+    width: 96px;
+    border-radius: 5px;
+    background: rgba(103, 103, 104, 1);
+  }
+
+  .projects__rates::-webkit-scrollbar-thumb {
+    background: rgba(228, 197, 146, 1);
+    border-radius: 5px;
+    background-clip: content-box;
+  }
+}
+
+@media (max-width: 1024px) {
+  #projects {
+    padding: 40px 0 52px;
+  }
+
+  #projects .container {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  #projects {
+    padding: 40px 0 52px;
+  }
+
+  #projects .container {
+    padding: 0 16px;
+  }
+
+  .projects__title {
+    margin-bottom: 64px;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .projects__line {
+    margin-bottom: 30px;
+  }
+
+  .projects__wraper {
+    margin-top: 70px;
+  }
+
+  .projects__rates {
+    overflow-x: scroll;
+    margin-right: -16px;
+  }
+
+  .projects__rates::-webkit-scrollbar {
+    height: 4px;
+    border-radius: 5px;
+    background: rgba(103, 103, 104, 1);
+  }
+
+  .projects__rates::-webkit-scrollbar-thumb {
+    background: rgba(228, 197, 146, 1);
+    border-radius: 5px;
+  }
+
+  .projects__wraper {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .projects__card-title {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .projects__card-subtitle {
+    font-size: 13px;
+    line-height: 16px;
+    height: 16px;
+    text-align: center;
+  }
+
+  .projects__year {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .projects__text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .projects__item:nth-child(-n + 4) {
+    padding-top: 0;
+  }
+
+  .projects__img {
+    margin-bottom: 14px;
+  }
+
+  .projects__card {
+    margin-bottom: 30px;
+  }
+
+  .projects__dots {
+    margin-top: 78px;
+    text-align: center;
+  }
+}
