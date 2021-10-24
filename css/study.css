@@ -1,20 +1,20 @@
 #study {
-  padding: 35px 0 120px;
+  padding: 0 0 120px;
   background: rgba(249, 249, 249, 1);
 }
 
 #study .container {
   position: relative;
+  padding-top: 35px;
 }
 
 .study__bar {
   position: absolute;
   right: 100px;
-  top: 51px;
+  top: 32px;
 }
 
 .study__logo-text {
-  margin-bottom: 77px;
   background: url("/image/study/logo-study.svg") center no-repeat;
   background-size: cover;
   max-width: 188px;
@@ -26,8 +26,13 @@
   text-decoration: none;
 }
 
+.study__logo-link {
+  text-decoration: none;
+}
+
 .study__title {
   margin-bottom: 60px;
+  padding-top: 77px;
   font-family: "Cormorant Garamond", serif;
   font-size: 86px;
   font-weight: 600;
@@ -147,4 +152,14 @@
 
 .study__buttons-investor > div {
   margin: 0 auto;
+}
+
+.study__icon-bottom {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: calc(21%);
+  z-index: 10;
 }
