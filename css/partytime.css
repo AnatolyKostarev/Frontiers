@@ -20,7 +20,7 @@
 }
 
 .party__title {
-  margin-bottom: 5px;
+  margin-bottom: 0;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
@@ -28,8 +28,17 @@
   color: rgba(103, 103, 104, 1);
 }
 
+.party__main {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 134px;
+  font-weight: 700;
+  line-height: 163px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .party__subtitle {
-  margin-top: 6px;
+  margin-top: 0;
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
