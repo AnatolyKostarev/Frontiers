@@ -29,16 +29,24 @@
 }
 
 .hibini__card-top {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 309px 133px 359px 133px 305px;
   grid-template-columns: 309px 359px 305px;
+  -webkit-column-gap: 133px;
+  -moz-column-gap: 133px;
   column-gap: 133px;
   margin-bottom: 64px;
   list-style-type: none;
 }
 
 .hibini__card-bottom {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 130px 1fr;
   grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 130px;
+  -moz-column-gap: 130px;
   column-gap: 130px;
   padding: 0 100px;
   list-style-type: none;
