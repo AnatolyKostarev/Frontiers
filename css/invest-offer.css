@@ -62,3 +62,102 @@
   text-align: left;
   color: rgba(249, 249, 249, 1);
 }
+
+.invest__offer-dots {
+  display: none;
+}
+
+@media (max-width: 1350px) {
+  .invest__offer-wraper-top {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 85px;
+  }
+
+  .invest__offer-wraper-bottom {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #invest__offer {
+    padding: 32px 0 52px;
+  }
+
+  #invest__offer .container {
+    padding: 0 16px;
+  }
+
+  .invest__offer-wraper-top {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+  }
+
+  .invest__offer-wraper-bottom {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 40px;
+  }
+
+  .invest__offer-text {
+    margin-bottom: 4px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .invest__offer-subtext {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  #invest__offer {
+    padding: 32px 0 52px;
+  }
+
+  #invest__offer .container {
+    padding: 0 16px;
+  }
+
+  .invest__offer-title {
+    margin-bottom: 28px;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .invest__offer-wraper-top {
+    margin-bottom: 24px;
+  }
+
+  .invest__offer-wraper-bottom {
+    margin-bottom: 40px;
+  }
+
+  .invest__offer-wraper-top,
+  .invest__offer-wraper-bottom {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+
+  .invest__offer-text {
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .invest__offer-subtext {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .invest__offer-dots {
+    display: block;
+    margin-top: 56px;
+    text-align: center;
+  }
+}
