@@ -20,8 +20,11 @@
 }
 
 .gallery__wrapper {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 37px 1fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 37px 20px;
   margin-bottom: 60px;
