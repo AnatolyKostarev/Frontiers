@@ -40,7 +40,8 @@
   gap: 0 26px;
   padding: 4px 0;
   position: absolute;
-  bottom: 0;
+  height: auto;
+  top: 392px;
   left: 0;
   width: 100%;
   background: -o-radial-gradient(

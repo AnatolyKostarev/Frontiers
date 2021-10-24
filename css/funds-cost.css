@@ -42,3 +42,62 @@
 .funds__cost-subtitle > span {
   color: rgba(228, 197, 146, 1);
 }
+
+.funds__cost-btn {
+  margin-top: 60px;
+}
+
+.funds__cost-dots {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  #funds__cost {
+    padding: 32px 0 48px;
+  }
+
+  #funds__cost .container {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  #funds__cost {
+    padding: 32px 0 48px;
+  }
+
+  #funds__cost .container {
+    padding: 0 16px;
+  }
+
+  .funds__cost-title {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .funds__cost-subtitle {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .funds__cost-middle {
+    margin: 44px 0;
+  }
+
+  .funds__cost-middle .funds__cost-title {
+    padding: 0 28px;
+  }
+
+  .funds__cost-btn {
+    margin-top: 40px;
+  }
+
+  .funds__cost-dots {
+    margin-top: 232px;
+    display: block;
+    text-align: center;
+  }
+}
