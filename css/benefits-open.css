@@ -30,8 +30,12 @@
 
 .benefits__card,
 .benefits__card-middle {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 481px 170px 589px;
   grid-template-columns: 481px 589px;
+  -webkit-column-gap: 170px;
+  -moz-column-gap: 170px;
   column-gap: 170px;
   list-style-type: none;
 }
