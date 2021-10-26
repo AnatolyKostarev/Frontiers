@@ -1,0 +1,48 @@
+#main {
+  position: relative;
+}
+.main__mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 32px 79px 271px 37px;
+  width: 279px;
+  height: auto;
+  background: rgba(4, 5, 7, 0.7);
+  transform: translateY(100%);
+  opacity: 0;
+  transition: 0.5s linear;
+}
+
+.main__mobile-bar {
+  margin-bottom: 39px;
+  cursor: pointer;
+}
+
+.main__mobile-top {
+  margin-bottom: 56px;
+}
+
+.main__mobile-top > li:nth-child(2) {
+  margin: 16px 0;
+}
+
+.main__mobile-bottom > li:nth-child(even) {
+  margin: 16px 0;
+}
+
+.main__mobile-top,
+.main__mobile-bottom {
+  list-style-type: none;
+}
+
+.main__mobile-item > a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(249, 249, 249, 1);
+  text-decoration: none;
+}
