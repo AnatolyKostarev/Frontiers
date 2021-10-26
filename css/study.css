@@ -163,3 +163,130 @@
   margin-bottom: calc(21%);
   z-index: 10;
 }
+
+.study__subtitle-mobile {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  #study {
+    padding: 15px 0 48px;
+  }
+
+  #study .container {
+    padding: 0 16px;
+  }
+
+  .study__bar {
+    top: 6px;
+    right: 19px;
+  }
+
+  .study__title {
+    margin-bottom: 28px;
+    padding-top: 41px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+  }
+
+  .study__subtitle {
+    display: none;
+  }
+
+  .study__subtitle-mobile {
+    display: block;
+    margin-bottom: 24px;
+    font-family: Cormorant Garamond;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .study__text {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .study__free,
+  .study__fee {
+    display: block;
+    margin-bottom: 36px;
+  }
+
+  .study__free > .study__card:nth-child(2),
+  .study__fee > .study__card:nth-child(2) {
+    margin: 20px 0;
+  }
+
+  .study__img {
+    margin-bottom: 7px;
+  }
+
+  .study__card-title {
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .study__card-text {
+    height: auto;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .study__icon {
+    margin-bottom: calc(26%);
+  }
+
+  .study__buttons {
+    display: block;
+    margin-bottom: 52px;
+  }
+
+  .study__buttons > div:nth-child(1) {
+    text-align: center;
+  }
+
+  .study__buttons > div:nth-child(n + 2) {
+    display: none;
+  }
+
+  .study__free-investor,
+  .study__fee-investor {
+    display: block;
+    margin-bottom: 36px;
+  }
+
+  .study__free-investor > .study__card:nth-child(1),
+  .study__fee-investor > .study__card:nth-child(1) {
+    margin-bottom: 20px;
+  }
+
+  .study__img-img {
+    max-width: 343px;
+    height: auto;
+  }
+
+  .study__buttons-investor {
+    display: block;
+  }
+
+  .study__buttons-investor > div:nth-child(1) {
+    text-align: center;
+  }
+  .study__buttons-investor > div:nth-child(2) {
+    display: none;
+  }
+
+  .study__icon-bottom {
+  }
+}
