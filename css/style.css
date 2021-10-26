@@ -24,6 +24,7 @@
 @import "./warehouse-gallery.css";
 @import "./invest-offer.css";
 @import "./study.css";
+@import "./events.css";
 @import "./404.css";
 
 body {
@@ -39,6 +40,11 @@ body {
   padding: 0 100px;
   max-width: 1240px;
   box-sizing: content-box;
+}
+
+main {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 h1,
