@@ -25,6 +25,7 @@
   right: 100px;
   top: 32px;
   cursor: pointer;
+  z-index: 101;
 }
 
 .main__logo-text {
@@ -259,7 +260,7 @@
     margin: 0 auto 40px;
   }
 
-  .main__text > .button {
+  .btn_main {
     display: block;
     margin: 0 auto;
   }
@@ -315,7 +316,7 @@
     color: rgba(249, 249, 249, 1);
   }
 
-  .main__text > .button {
+  .btn_main {
     display: block;
     margin: 0 auto;
   }
@@ -412,7 +413,7 @@
     color: rgba(249, 249, 249, 1);
   }
 
-  .main__text > .button {
+  .btn_main {
     display: block;
     margin: 0 auto;
   }
@@ -509,7 +510,7 @@
     color: rgba(249, 249, 249, 1);
   }
 
-  .main__text > .button {
+  .btn_main {
     display: block;
     margin: 0 auto;
   }
@@ -606,7 +607,7 @@
     color: rgba(249, 249, 249, 1);
   }
 
-  .main__text > .button {
+  .btn_main {
     display: block;
     margin: 0 auto;
   }
