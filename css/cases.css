@@ -1,6 +1,6 @@
 #cases {
-  padding: 35px 0 0 0;
   position: relative;
+  padding: 35px 0 0 0;
   background: url("../image/cases/img-cases-bg.png") center no-repeat #ccc;
   background-size: cover;
   z-index: 99;
@@ -15,6 +15,15 @@
   width: 100%;
   background: rgba(4, 5, 7, 0.7);
   z-index: -1;
+}
+
+#cases .container {
+  position: relative;
+}
+
+#cases .container > .main__bar {
+  position: absolute;
+  top: 4px;
 }
 
 .cases__home-link {

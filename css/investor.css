@@ -1,6 +1,7 @@
 #investor {
   padding: 80px 0 120px;
   background: rgba(249, 249, 249, 1);
+  overflow: hidden;
 }
 
 .investor__title {
@@ -79,6 +80,19 @@
 .investor__services > .button {
   display: block;
   margin: 0 auto;
+}
+
+.investor__services-wraper {
+  display: flex;
+}
+
+.investor__services-list:nth-child(1) {
+  transition: 1s ease-in-out;
+}
+
+.investor__services-list:nth-child(2) {
+  transform: translateX(100%);
+  transition: 1s ease-in-out;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1439px) {

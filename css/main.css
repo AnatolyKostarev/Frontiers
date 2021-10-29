@@ -22,8 +22,8 @@
 
 .main__bar {
   position: absolute;
-  right: 100px;
-  top: 32px;
+  right: 104px;
+  top: 39px;
   cursor: pointer;
   z-index: 101;
 }
