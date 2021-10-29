@@ -5,18 +5,18 @@ const entrepreneurLink = document.querySelector(".js-entrepreneur");
 const entrepreneurList = document.querySelector(".js-entrepreneurServiceList");
 const investorList = document.querySelector(".js-investorServiceList");
 
-entrepreneurList.style.display = "none";
+// entrepreneurList.style.display = "none";
 
 const showInvestor = (e) => {
   e.preventDefault();
-  investorList.style.display = "grid";
-  entrepreneurList.style.display = "none";
+  investorList.style.transform = "translateX(0)";
+  entrepreneurList.style.transform = "translateX(100%)";
 };
 
 const shownEtrepreneur = (e) => {
   e.preventDefault();
-  investorList.style.display = "none";
-  entrepreneurList.style.display = "grid";
+  investorList.style.transform = "translateX(-200%)";
+  entrepreneurList.style.transform = "translateX(-100%)";
 };
 
 investorLink.addEventListener("click", showInvestor);
