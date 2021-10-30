@@ -144,6 +144,19 @@
   .investor__title-entrepreneur {
     display: none;
   }
+
+  /* .investor__services-wraper {
+    display: block;
+  }
+
+  .investor__services-list:nth-child(1) {
+    transition: none;
+  }
+
+  .investor__services-list:nth-child(2) {
+    transform: none;
+    transition: none;
+  } */
 }
 
 @media (max-width: 576px) {
@@ -194,4 +207,17 @@
     line-height: 16px;
     text-align: center;
   }
+
+  /* .investor__services-wraper {
+    display: block;
+  }
+
+  .investor__services-list:nth-child(1) {
+    transition: none;
+  }
+
+  .investor__services-list:nth-child(2) {
+    transform: none;
+    transition: none;
+  } */
 }

@@ -34,6 +34,12 @@ body {
   font-family: "Open Sans", serif;
   background: #ccc;
   color: rgba(228, 197, 146, 1);
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .container {
