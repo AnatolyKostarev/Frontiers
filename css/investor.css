@@ -122,6 +122,22 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 80px;
   }
+
+  .investor__services-wraper {
+    flex-direction: column;
+    max-height: 350px;
+  }
+
+  .investor__services-list:nth-child(2) {
+    transform: translate3d(130%, -137%, 0px);
+    transition: 1s ease-in-out;
+  }
+
+  .investor__dots-mobile {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -149,18 +165,20 @@
     display: none;
   }
 
-  /* .investor__services-wraper {
-    display: block;
-  }
-
-  .investor__services-list:nth-child(1) {
-    transition: none;
+  .investor__services-wraper {
+    flex-direction: column;
+    max-height: 645px;
   }
 
   .investor__services-list:nth-child(2) {
-    transform: none;
-    transition: none;
-  } */
+    transform: translate3d(130%, -107%, 0px);
+  }
+
+  .investor__dots-mobile {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -212,16 +230,83 @@
     text-align: center;
   }
 
-  /* .investor__services-wraper {
-    display: block;
-  }
-
-  .investor__services-list:nth-child(1) {
-    transition: none;
+  .investor__services-wraper {
+    flex-direction: column;
+    max-height: 575px;
   }
 
   .investor__services-list:nth-child(2) {
-    transform: none;
-    transition: none;
-  } */
+    transform: translate3d(107%, -107%, 0px);
+  }
+
+  .investor__dots-mobile {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+  #investor {
+    padding: 32px 0 48px;
+  }
+
+  #investor .container {
+    padding: 0;
+  }
+
+  .investor__title {
+    margin-bottom: 28px;
+  }
+
+  .investor__title-investor {
+    padding: 0;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(208, 176, 124, 1);
+  }
+
+  .investor__title-entrepreneur {
+    display: none;
+  }
+
+  .investor__services {
+    padding: 0 16px;
+  }
+
+  .investor__services-list {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    grid-row-gap: 21px;
+    margin-bottom: 40px;
+  }
+
+  .investor__services-header {
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .investor__services-text {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .investor__services-wraper {
+    flex-direction: column;
+    max-height: 630px;
+  }
+
+  .investor__services-list:nth-child(2) {
+    transform: translate3d(107%, -107%, 0px);
+  }
+
+  .investor__dots-mobile {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+  }
 }
