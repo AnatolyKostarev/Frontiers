@@ -44,9 +44,13 @@
   padding-bottom: 144px;
 }
 
+.main__text > a {
+  text-decoration: none;
+}
+
 .main__image {
   position: absolute;
-  top: 0;
+  top: 19px;
   left: 425px;
   max-width: 907px;
 }
@@ -105,6 +109,7 @@
   mix-blend-mode: normal;
   -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
+  filter: blur(0);
 }
 
 .main__wrapper {
