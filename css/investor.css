@@ -95,6 +95,10 @@
   transition: 1s ease-in-out;
 }
 
+.investor__dots-mobile {
+  display: none;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1439px) {
   #investor {
     padding: 60px 0 80px;
